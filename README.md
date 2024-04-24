@@ -94,7 +94,7 @@ $
 
 ## Mount using SYSTEMD Service (not .mount)
 
-When some of my projects are deployed, the server is deployed with them or on-line. Before I found systemd.mount, I'd developed the following script for the Raspberry PI Clients.
+When some of my projects are deployed, the server is not deployed with them or not on-line. Before I found systemd.mount, I'd developed the following script for the Raspberry PI Clients.
 
 ```
 $ more mount_libraries.sh
