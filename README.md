@@ -12,7 +12,7 @@ I was using FSTAB to mount the backup. Initially when I plugged in the drive, it
 Looking for answers, I found that the device for USB drives may change for several reasons including cable issues. The recommendation is to:
 
 * Mount USB drives using their UUID's
-* Do not use FSTAB to mount USB drives where to could interfere with the boot process (which is what I experienced). One thing I didn't know about was the NOFAIL option which does ]"Do not report errors for this device if it does not exist."](https://superuser.com/questions/449922/fstab-on-boot-mount-when-device-is-plugged-in)
+* Do not use FSTAB to mount USB drives where to could interfere with the boot process (which is what I experienced). One thing I didn't know about was the NOFAIL option which does ["Do not report errors for this device if it does not exist."](https://superuser.com/questions/449922/fstab-on-boot-mount-when-device-is-plugged-in)
 
 ## Solution Research
 
